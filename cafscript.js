@@ -452,7 +452,7 @@
       console.log('LIVE STORE');
     }
     //var _viewmorebtntext = document.getElementById('ca_filter_shownextbtntextinput').value;
-    var shopcurrency = Shopify.currency.active;
+    //var shopcurrency = Shopify.currency.active;
     //var currencysymbol = CurrencyMoneyFormats[shopcurrency].money_format;
     var _paginationElementDiv = '<button type="button" id="ca_swatchy_filtery_viewmorebtn" class="btn">' +
         //_viewmorebtntext +
