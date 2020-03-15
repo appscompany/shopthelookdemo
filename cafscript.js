@@ -4524,28 +4524,7 @@
             }
           }
 
-        });*/
-        $('body').on('click', '#ca_filter_show_next_btn', function (e) {
-          // Check if filter applied
-          var filterHiddenInputs = document.querySelectorAll('.ca_filter_hiddeninput');
-          var filterValuesList = [];
-          for (var f = 0; f < filterHiddenInputs.length; f++) {
-            var filterinputvalue = filterHiddenInputs[f].value;
-            if (filterinputvalue != '') {
-              filterValuesList.push(filterinputvalue);
-            }
-          }
-
-          if (filterValuesList.length == 0) {
-            // Filter Not Applied
-            // Load Next 20
-            console.log(_totalproductsincollection);
-          }
-          else {
-            // Filter Applied
-          }
-
-        });
+        });*/      
 
         if (laststring == 'search') {
           var themename = Shopify.theme.name;
