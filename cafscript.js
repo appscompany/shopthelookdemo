@@ -2838,8 +2838,8 @@
                   var _productstodisplayArray = _productstodisplaystring.split(',');
                   var _urltoloadfilter = 'https://' + domainName + '/collections/' + laststring + '?sort_by=title-ascending&page=1?products=' + _productstodisplaystring;
                   //console.log(_urltoloadfilter);
-                  window.location = _urltoloadfilter;
-                  //$("#collectionsgrid").load(_urltoloadfilter +" #collectionsgrid>*","");
+                  //window.location = _urltoloadfilter;
+                  $("#collectionsgrid").load(_urltoloadfilter +" #collectionsgrid>*","");
                   $('#ca_filter_loaderspinner').hide();
                 });
 
