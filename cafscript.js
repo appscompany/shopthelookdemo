@@ -616,8 +616,8 @@
                 '<input class="ca_filter_hiddeninput" type="hidden" name="ca_filtervalue_vendor" id="ca_filtervalue_vendor" value="" />';        
             // Budget Range
             var budgetarrayHTML = '<div class="range-slider"><span>from' +
-                '<input type="number" value="' + _budget_min + '" min="' + _budget_min + '" max="' + _budget_max + '"/>	to' +
-                '<input type="number" value="' + _budget_max + '" min="' + _budget_min + '" max="' + _budget_max + '"/></span>' +
+                '<input style="float: left; width: 50%;" type="number" value="' + _budget_min + '" min="' + _budget_min + '" max="' + _budget_max + '"/>	to' +
+                '<input style="float: right; width: 50%;" type="number" value="' + _budget_max + '" min="' + _budget_min + '" max="' + _budget_max + '"/></span>' +
                 '<input value="' + _budget_min + '" min="' + _budget_min + '" max="' + _budget_max + '" step="1" type="range"/>' +
                 '<input value="' + _budget_max + '" min="' + _budget_min + '" max="' + _budget_max + '" step="1" type="range"/>' +
                 '<svg width="100%" height="24">' +
