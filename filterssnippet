@@ -1,0 +1,2409 @@
+{% assign filtersdata_array = "t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, t-shirts:Shirts#994_Sleeveless Tee#6@Acme#997_Nike#2_Cupel#1_Lenin#1@11*14#2_14*17#4_17*20#0_20*25#994@Color_Pink#2_Black#993_Red#1_Blue#1@Size_S#0_M#0_L#0_XL#0@, tops:Sleeve Tops#1_Striped Tops#7_Checked Tops#3_Plain Tops#4@Brio#1_Cupel#12_Nike#2@19*29#7_29*39#3_39*49#1_49*60#3@Size_S#15_M#15_L#15_XL#3@Fabric Color_Black#1_Blue#2_Pink\/DarkPink#1_Red#1@Color_Maroon#0_Blue#0" %}
+{% assign colornamesarray = 'FabricColor,Colour,Color' | split:',' %}
+{% assign Swatch_IsActive = %}
+{% assign colorvaluesarray = 'Red_FF0000*FFFFFF*FFFFFF,Lavender_AFA4CE*FFFFFF*FFFFFF,Purple_660099*FFFFFF*FFFFFF,Sky blue_8ABAD3*FFFFFF*FFFFFF,Gold_FFD700*FFFFFF*FFFFFF,YELLOW_D7F720*FFFFFF*FFFFFF,Gray_808080*FFFFFF*FFFFFF,Camel_B0846A*FFFFFF*FFFFFF,Beige_D5BA98*FFFFFF*FFFFFF,White_F7F7F7*FFFFFF*FFFFFF,Black_000000*FFFFFF*FFFFFF,Grey_808080*FFFFFF*FFFFFF,Green_192F22*FFFFFF*FFFFFF,Navy Blue_13161F*FFFFFF*FFFFFF,Pink_FFC0CB*FFFFFF*FFFFFF,Blue_0000FF*FFFFFF*FFFFFF,Maroon_834655*FFFFFF*FFFFFF' %}
+{% assign _filter_gridqueryselector = '.grid--uniform' %}
+{% assign templatename = template.name %}
+<style>
+  
+.skeleton-bone, .list .item .card-demo .infos .thumbnail {
+  position: relative;
+  overflow: hidden;
+  background-color: #ececec;
+}
+.skeleton-bone:before, .list .item .card-demo .infos .thumbnail:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: translateX(-100%);
+  content: "";
+  background: linear-gradient(0.25turn, transparent, #fff, transparent);
+  pointer-events: none;
+  opacity: 0.8;
+  animation: skeleton-animation 2s infinite;
+}
+
+
+
+.container {
+  display: block;
+  /*max-width: 600px;*/
+  margin: auto;
+}
+
+
+
+.skeleton-bone {
+  display: block;
+}
+
+.btn-fill {
+  cursor: pointer;
+  padding: 6px 12px 3px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1em;
+  text-transform: uppercase;
+  background-color: #E15554;
+  border-radius: 10px;
+  color: #FFF;
+  position: absolute;
+  right: 100%;
+  top: 32px;
+  transition: 0.5s ease;
+}
+.btn-fill:hover {
+  background-color: #e1548f;
+}
+.btn-fill.disabled {
+  pointer-events: none;
+  filter: grayscale(100%);
+  opacity: 0.2;
+}
+
+.list {
+  position: relative;
+}
+.list .item {
+  /*padding: 32px;*/
+  border-bottom: 1px solid #fafafa;
+  position: relative;
+  margin-top: 10px;
+}
+.list .item .card-demo {
+  display: flex;
+  flex-direction: row;
+  /* padding: 24px; */
+  /*border-radius: 6px;*/
+  /*box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);*/
+  background-color: #fff;
+  height: 150px;
+  padding: 2%;
+  border-bottom: 1px solid #EAEAEA;
+}
+.list .item .card-demo .infos {
+  width: 130px;
+  margin-right: 16px;
+}
+.list .item .card-demo .infos .thumbnail {
+  width: 100px;
+  /*padding-bottom: 56.25%;*/
+  background-size: cover;
+  height: 100px;
+}
+.list .item .card-demo .infos .thumbnail:not(:empty)::before {
+  display: none;
+}
+.list .item .card-demo .infos .thumbnail img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.list .item .card-demo .infos .date {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 16px;
+}
+.list .item .card-demo .infos .date .skeleton-bone {
+  width: 100%;
+  max-width: 70%;
+  height: 16px;
+}
+.list .item .card-demo .title {
+  width: 65%;
+  font-size: 18px;
+  font-weight: bold;
+}
+.list .item .card-demo .title .skeleton-bone {
+  width: 100%;
+  height: 20px;
+}
+.list .item .card-demo .title .skeleton-bone:not(:first-child) {
+  margin: 12px 0 0 0;
+}
+.list .item .card-demo .title .skeleton-bone:not(:only-child):last-child {
+  max-width: 70%;
+}
+
+@keyframes skeleton-animation {
+  0% {
+    transform: translateX(-100%);
+  }
+  30% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+div#ca_search_inputelement_div
+{
+  width: 100%; 
+  text-align: center;
+}
+input#ca_search_inputelement
+{
+  width: 60%; 
+  margin: 20px 5% 0px 5%;
+}
+div#ca_search_pop_content_div
+{
+  display: none;
+  width: 100%; 
+  z-index: 55444;
+  text-align: center;
+}
+div#ca_search_pop_content
+{
+  display: inline-block;
+  width: 60%;
+  margin: 0px 5% 20px 5%;
+  border: 1px solid #EAEAEA;
+}
+
+.gpopover {
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    padding: 12px;
+    position: absolute;
+    z-index: 998;
+}
+
+.gpopover .gpopover-arrow {
+    border: 8px solid transparent;
+    border-bottom-color: #FFF;
+    border-top-width: 0;
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 999;
+}
+
+.gpopover .gpopover-arrow-shadow {
+    border: 8px solid transparent;
+    border-bottom-color: #C0C0C0;
+    border-bottom-color: rgba(0, 0, 0, 0.275);
+    border-top-width: 0;
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 997;
+}
+
+  .slick-slide img
+{
+  display: inline-block!important;
+  cursor: pointer;
+}
+.ca_rvitem
+{
+  cursor: pointer;
+}
+.ca_rvitem:hover
+{
+  opacity: 0.8;
+}
+{% if template.name != 'product' %}
+.caf_slideControls {
+  position: absolute;
+  width: 100%;
+  top: 47px;
+  left: 0;
+}
+.caf_slideControls i {
+  font-size: 30px;
+}
+.caf_slideControls .slideNext {
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+}
+.caf_slideControls .slidePrev {
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.slick-prev:before {
+  content: ' \276E'!important;
+}
+.slick-next:before {
+  content: ' \276F'!important;
+}
+{% endif %}
+  .ca-star-ratings-css {
+    unicode-bidi: bidi-override;
+    color: #c5c5c5;
+    font-size: 25px;
+    height: 25px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    text-shadow: 0px 1px 0 #a2a2a2;
+  }
+  .ca-star-ratings-css-top {
+    color: #000;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+ 
+  .ca-star-ratings-css-bottom {
+  padding: 0;
+  display: block;
+  z-index: 0;
+}
+  div#ca_search_inputelement_div
+  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  div#ca_filter_headerdiv
+  {
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    display: none;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  div#ca_filter_header_innerdivleft
+  {
+    width: 50%;
+    
+  }
+  
+  div#ca_filter_header_innerdivright
+  {
+    line-height: 40px;
+    height: 40px;
+    vertical-align: middle;
+    /* display: inline-block; */
+    float: right;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* bottom: 0; */
+    /* right: 0; */
+    width: 70%;
+    
+  }
+ 
+ 
+  /*** Off Canvas Sidebar ***/
+  .screen-overlay {
+    height: 100%;
+    z-index: 30;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity:0;
+    visibility:hidden;
+    background-color: rgba(34, 34, 34, 0.6);
+    transition:opacity .2s linear, visibility .1s, width 1s ease-in;
+  }
+  .screen-overlay.show {
+    transition:opacity .5s ease, width 0s;
+    opacity:1;
+    width:100%;
+    visibility:visible;
+  }
+
+  .offcanvas{
+    width:350px;
+    visibility: hidden;
+    transform:translateX(-100%);
+    transition:all .2s;
+    border-radius:0; 
+    box-shadow: 0 5px 10px rgba(0,0,0, .2);
+    display:block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1200;
+    background-color: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .offcanvas.show{
+    visibility: visible;
+    transform: translateX(0);
+    transition: transform .2s;
+  }
+  /*** Off Canvas Sidebar End ***/
+  .range-slider {
+    width: 180px;
+    min-height: 300px;
+    text-align: center;
+    position: relative;
+  }
+  .range-slider .rangeValues {
+    display: block;
+  }
+
+  input[type=range] {
+    -webkit-appearance: none;
+    border: 1px solid white;
+    width: 300px;
+    position: absolute;
+    left: 0;
+  }
+
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+  }
+
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #000;
+    margin-top: -4px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+  }
+
+  input[type=range]:focus {
+    outline: none;
+  }
+
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+  }
+
+  input[type=range]::-moz-range-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+  }
+
+  input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #21c1ff;
+  }
+
+  /*hide the outline behind the border*/
+  input[type=range]:-moz-focusring {
+    outline: 1px solid white;
+    outline-offset: -1px;
+  }
+
+  input[type=range]::-ms-track {
+    width: 300px;
+    height: 5px;
+    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+    background: transparent;
+    /*leave room for the larger thumb to overflow with a transparent border */
+    border-color: transparent;
+    border-width: 6px 0;
+    /*remove default tick marks*/
+    color: transparent;
+    z-index: -4;
+  }
+
+  input[type=range]::-ms-fill-lower {
+    background: #777;
+    border-radius: 10px;
+  }
+
+  input[type=range]::-ms-fill-upper {
+    background: #ddd;
+    border-radius: 10px;
+  }
+
+  input[type=range]::-ms-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #21c1ff;
+  }
+
+  input[type=range]:focus::-ms-fill-lower {
+    background: #888;
+  }
+
+  input[type=range]:focus::-ms-fill-upper {
+    background: #ccc;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .page-container {
+    -ms-transform: initial!important;
+    -webkit-transform:  initial!important;
+    transform:  initial!important;
+  }
+
+  /*#ca_filter_bar
+  {
+  margin: 10px 5px 10px 5px; 
+  width: 100%; 
+  border-top: 1px solid #EAEAEA; 
+  border-bottom: 1px solid #EAEAEA; 
+  height: 50px; 
+  line-height: 50px; 
+  vertical-align: middle;
+  }*/
+  /*.filters-toolbar-wrapper
+  {
+  display: none;
+  }*/
+  button.ca_paginationbtn:hover
+  {
+    background-color: #EAEAEA;
+  }
+  button.ca_paginationbtn
+  {
+    background-color: #fff;
+    border: 1px solid #EAEAEA;
+    color: #000;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+  }
+  @font-face {
+    font-display: swap;
+  }
+
+  .flickity-button:disabled {
+    opacity: 0;
+  }
+  .flickity-prev-next-button.previous {
+    left: -5px;
+  }
+  .flickity-prev-next-button.next {
+    right: -5px;
+  }
+  .flickity-prev-next-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+  .flickity-viewport
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 80%;
+  }
+  a#caf_filter_button {    
+    font-size: 13px;
+    text-transform: capitalize;    
+    min-width: 200px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    cursor: pointer;  
+    /*position: absolute;    
+    top: 50%;
+    padding: 5px 10px 5px 10px;
+    left: 50%;*/
+    z-index: 50000;
+    -ms-transform: initial!important;
+    -webkit-transform:  initial!important;
+    transform:  initial!important;
+  }
+
+  select#ca_filter_sortbyselect
+  {
+    border: 1px solid #EAEAEA;
+  }
+  .caf_filter_button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+  /* Style the tab */
+  .caf_tab {
+    display: block;
+    overflow: hidden;
+
+    /*background-color: #f1f1f1;*/
+
+  }
+
+  /* Style the buttons inside the tab */
+  .caf_tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: 0.3s;
+    font-size: 17px;
+    font-style: normal;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+  }
+
+  /* Change background color of buttons on hover */
+  .caf_tab button:hover {
+    background-color: #ccc;
+  }
+
+  /* Create an active/current tablink class */
+  .caf_tab button.active {
+    /*background-color: #ccc;*/
+    border: 1px solid #ccc;
+    border-bottom: none;
+  }
+
+  /* Style the tab content */
+  .caf_tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+
+  }
+  .caf_tab button:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .caf_tab button.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  button.ca_filters_pagination_btn
+  {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    padding: 5px 10px 5px 10px;
+  }
+  div#ca_filters_paginationdiv
+  {
+    display: inline-block;
+    width: 100%;
+    margin-left: 20%;
+    text-align: center;
+    float: left;
+    margin-top: 40px;
+  }
+  div#ca_filters_paginationdiv li
+  {
+    display: inline-block;
+  }
+  .list--inline.pagination
+  {
+    display: none;
+  }
+  div.ca_filters_qvbtndiv
+  {
+    width: 100%; 
+    text-align: center;
+  }
+  button.ca_filters_qvbtn
+  {
+    padding: 5px 10px 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    text-transform: capitalize;
+  }
+
+  /*** Skeleton Loading Start **/
+  .skeleton-loading {
+    padding: 10px;
+    display: inline-block;
+  }
+  .sk-product-pic:empty {
+    margin-bottom:5px;
+    width: 150px;
+    height: 180px; /* change height to see repeat-y behavior */
+    border-radius: 1%;
+
+    background-image:
+      linear-gradient(90deg, 
+        rgba(255, 255, 255, 0), 
+        rgba(255, 255, 255, 0.5) 70%,
+        rgba(255, 255, 255, 0) 90% 
+      ),
+      linear-gradient(lightgray 180px, transparent 0 );
+
+    /* 		background-repeat: repeat-y; */
+
+    background-size:
+      300px 180px;		
+
+    background-position:
+      0 0, /* highlight */
+      180px 0,
+      180px 40px,
+      180px 80px,
+      180px 180px;
+    animation: shine 3s infinite;
+  }
+
+  .sk-product-name:empty,.sk-product-price:empty {
+    margin-bottom: 10px;				
+    width: 150px;
+    height: 10px; /* change height to see repeat-y behavior */
+    border-radius: 1%;
+    background-image:
+      linear-gradient(90deg, 
+        rgba(255, 255, 255, 0), 
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0) 80% 
+      ),
+      linear-gradient(lightgray 20px, transparent 0 );
+
+    /* 		background-repeat: repeat-y; */
+
+    background-size:
+      300px 180px;		
+
+    background-position:
+      0 0, /* highlight */
+      180px 0,
+      180px 40px,
+      180px 80px,
+      180px 180px;
+    animation: shine 3s infinite;
+  }
+  @keyframes slide {
+    0% {transform:translateX(-100%);}
+    100% {transform:translateX(100%);}
+  }
+  @keyframes shine {
+    to {
+      background-position:
+        100% 0, /* move highlight to right */
+        180px 0,
+        180px 40px,
+        180px 80px,
+        180px 180px;
+    }
+  }
+  /*** Skeleton Loading End ***/
+  /*** Mega Menu Start ***/
+  .menu-container {
+    width: 80%;
+    margin: 0 auto;
+    background: #e9e9e9;
+  }
+  .menu-mobile {
+    display: none;
+    padding: 20px;
+  }
+  .menu-mobile:after {
+    content: "\f394";
+    font-family: "Ionicons";
+    font-size: 2.5rem;
+    padding: 0;
+    float: right;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  .box {
+    width: 250px;
+    position: relative;
+    margin: 40px auto;
+    background: white;
+    font-weight: bold;
+    border: 2px solid black;
+    /*line-height: 100px;
+    text-align: center;*/
+  }
+  .box.top:before, .box.top:after {
+    bottom: 100%;
+    left: 10%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .box.top:after {
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 10px;
+    border-bottom-color: white;
+    margin-left: -10px;
+  }
+  .box.top:before {
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 12px;
+    border-bottom-color: #ccc;
+    margin-left: -12px;
+  }
+  .box.right:before, .box.right:after {
+    top: 50%;
+    left: 100%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .box.right:after {
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 10px;
+    border-left-color: white;
+    margin-top: -10px;
+  }
+  .box.right:before {
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 12px;
+    border-left-color: black;
+    margin-top: -12px;
+  }
+  .box.bottom:before, .box.bottom:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .box.bottom:after {
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 10px;
+    border-top-color: white;
+    margin-left: -10px;
+  }
+  .box.bottom:before {
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 12px;
+    border-top-color: black;
+    margin-left: -12px;
+  }
+  .box.left:before, .box.left:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .box.left:after {
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 10px;
+    border-right-color: white;
+    margin-top: -10px;
+  }
+  .box.left:before {
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 12px;
+    border-right-color: black;
+    margin-top: -12px;
+  }
+  .menu-dropdown-icon:before {
+    content: "\f489";
+    font-family: "Ionicons";
+    display: none;
+    cursor: pointer;
+    float: right;
+    padding: 1.5em 2em;
+    background: #fff;
+    color: #333;
+  }
+  .menu > ul {
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
+    box-sizing: border-box;
+  }
+  .menu > ul:before,
+  .menu > ul:after {
+    content: "";
+    display: table;
+  }
+  .menu > ul:after {
+    clear: both;
+  }
+  .menu > ul > li {
+    float: left;
+    /*background: #e9e9e9;*/
+    border: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
+    margin-right: 8px;
+  }
+  .menu > ul > li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  .menu > ul > li:hover {
+    background: #f0f0f0;
+  }
+  .menu > ul > li > ul {
+    display: none;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+  }
+  .menu > ul > li > ul:before,
+  .menu > ul > li > ul:after {
+    content: "";
+    display: table;
+  }
+  .menu > ul > li > ul:after {
+    clear: both;
+  }
+  .menu > ul > li > ul > li {
+    margin: 0;
+    padding-bottom: 0;
+    list-style: none;
+    width: 25%;
+    background: none;
+    float: left;
+  }
+  .menu > ul > li > ul > li a {
+    color: #777;
+    padding: 0.2em 0;
+    width: 95%;
+    display: block;
+    border-bottom: 1px solid #ccc;
+  }
+  .menu > ul > li > ul > li > ul {
+    display: block;
+    padding: 0;
+    margin: 10px 0 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  .menu > ul > li > ul > li > ul:before,
+  .menu > ul > li > ul > li > ul:after {
+    content: "";
+    display: table;
+  }
+  .menu > ul > li > ul > li > ul:after {
+    clear: both;
+  }
+  .menu > ul > li > ul > li > ul > li {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 0.8em;
+  }
+  .menu > ul > li > ul > li > ul > li a {
+    border: 0;
+  }
+  .menu > ul > li > ul.normal-sub {
+    width: 300px;
+    left: auto;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  .menu > ul > li > ul.normal-sub > li {
+    width: 100%;
+  }
+  .menu > ul > li > ul.normal-sub > li a {
+    border: 0;
+    padding: 1em 0;
+  }
+  /* ––––––––––––––––––––––––––––––––––––––––––––––––––
+  Mobile style's
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  @media only screen and (max-width: 959px) {
+    .menu-container {
+      width: 100%;
+    }
+    .menu-mobile {
+      display: block;
+    }
+    .menu-dropdown-icon:before {
+      display: block;
+    }
+    .menu > ul {
+      display: none;
+    }
+    .menu > ul > li {
+      width: 100%;
+      float: none;
+      display: block;
+    }
+    .menu > ul > li a {
+      padding: 1.5em;
+      width: 100%;
+      display: block;
+    }
+    .menu > ul > li > ul {
+      position: relative;
+    }
+    .menu > ul > li > ul.normal-sub {
+      width: 100%;
+    }
+    .menu > ul > li > ul > li {
+      float: none;
+      width: 100%;
+      margin-top: 20px;
+    }
+    .menu > ul > li > ul > li:first-child {
+      margin: 0;
+    }
+    .menu > ul > li > ul > li > ul {
+      position: relative;
+    }
+    .menu > ul > li > ul > li > ul > li {
+      float: none;
+    }
+    .menu .show-on-mobile {
+      display: block;
+    }
+  }
+  /*** Mega Menu End ***/
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+
+  .ca_next_prev_button {
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+    padding: 8px 8px;
+    font-size: 13px;
+    font-family: Raleway;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  #prevBtn {
+    background-color: #bbbbbb;
+  }
+
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+
+  .step.active {
+    opacity: 1;
+  }
+
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #4CAF50;
+  }
+  .collection-sort {
+    display: none !important;
+  }
+
+  div#ca_filterinstallation_loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    z-index: 454545455445;
+  }
+
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  div#ca_filter_sortbydiv {
+    width: 50%;
+    float: right;
+    height:40px;
+    line-height: 40px;
+    vertical-align: middle;
+  }
+
+
+
+  img.ca_f_productimage:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+  }
+
+  .caf_cont {
+    width: 720px
+  }
+
+  .caf_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+    justify-content: flex-start
+  }
+
+  .caf_single-item {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    margin: 20px;
+    border-radius: 10px;
+    color: #888
+  }
+
+  .caf_pagination {
+    padding: 20px;
+    user-select: none
+  }
+
+  .ca_filter_div_inline {
+    display: inline-block
+  }
+
+  div#ca_filtervalues_btndiv {
+    margin-bottom: 20px
+  }
+
+  span#ca_filter_pagenospan {
+    padding: 50px
+  }
+
+  div#ca_filter_paginationdiv {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 20%
+  }
+
+  .ca_filter_pagination {
+    display: inline-block
+  }
+
+  .ca_filter_pagination a {
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd
+  }
+
+  .ca_filter_pagination a.active {
+    background-color: #4caf50;
+    color: #fff;
+    border: 1px solid #4caf50
+  }
+
+  .ca_filter_pagination a:hover:not(.active) {
+    background-color: #ddd
+  }
+
+  button.ca_filtervalues_btn {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    color: #000;
+    margin-right: 10px;
+    font-size: 80%
+  }
+
+  div#ca_filterdivcontainer {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: -80px;
+    width: 200px;
+    text-align: center;
+    background: #6dad53;
+    min-height: 35px;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    z-index: 50000;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    float: left;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+    overflow-y: auto
+  }
+
+  div#ca_filterdiv {
+    /*background-color: #f5f7fa;
+    display: none;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #eaeaea*/
+  }
+
+
+
+  div#ca_filter_loaderspinner {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: 3px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 3px solid #3498db;
+    width: 30px;
+    height: 30px;
+    z-index: 50000;
+    -webkit-animation: spin .3s linear infinite;
+    animation: spin .3s linear infinite
+  }
+
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0)
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg)
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0)
+    }
+
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+
+  div.ca_filtery_checkbox, div.ca_searchfiltery_checkbox {
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer
+  }
+
+  button.ca_filtery_checkbox, button.ca_searchfiltery_checkbox {
+    font-weight: 400
+  }
+
+  button.ca_filtery_colorbtn: hover {
+    color: #eaeaea
+  }
+
+  div.ca_filtery_colorbtn {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    color: #eaeaea;
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    line-height: 20px;
+    cursor: pointer
+  }
+
+
+
+  .ca_filter_container_li
+  {
+    display: inline-block;
+    /*border: 1px solid #EAEAEA;*/
+    border: none;
+  }
+  .ca_filter_container, .ca_searchfilter_container {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #000;
+    height: 20px;
+  }
+
+  .ca_filter_container input, .ca_searchfilter_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+  }
+
+  .ca_filter_checkmark, .ca_searchfilter_checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee
+  }
+
+  .ca_filter_container:hover input ~ .ca_filter_checkmark, .ca_searchfilter_container:hover input ~ .ca_searchfilter_checkmark {
+    background-color: #ccc
+  }
+
+  .ca_filter_container input:checked ~ .ca_filter_checkmark, .ca_searchfilter_container input:checked ~ .ca_searchfilter_checkmark {
+    background-color: #000
+  }
+
+  .ca_filter_checkmark:after, .ca_searchfilter_checkmark:after {
+    content: "";
+    position: absolute;
+    display: none
+  }
+
+  .ca_filter_container input:checked ~ .ca_filter_checkmark:after, .ca_searchfilter_container input:checked ~ .ca_searchfilter_checkmark:after {
+    display: block
+  }
+
+  .ca_filter_container .ca_filter_checkmark:after, .ca_searchfilter_container .ca_searchfilter_checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+  }
+
+
+  .ca_filter_loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite
+  }
+
+  @-webkit-keyframes ca_filter_spin {
+    0% {
+      -webkit-transform: rotate(0)
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg)
+    }
+  }
+
+  @keyframes ca_filter_spin {
+    0% {
+      transform: rotate(0)
+    }
+
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+
+  div.ca_filter_panel::-webkit-scrollbar {
+    width: 5px
+  }
+
+  div.ca_filter_panel::-webkit-scrollbar-track {
+    background: #f1f1f1
+  }
+
+  div.ca_filter_panel::-webkit-scrollbar-thumb {
+    background: #888
+  }
+
+  div.ca_filter_panel::-webkit-scrollbar-thumb:hover {
+    background: #555
+  }
+
+  div.swatch_swatchdiv {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent
+  }
+
+  /*** Pagination CSS ***/
+  /* Skeleton Layout Animator Start */
+  .ca_filters_skeletonbox {
+    background-color: #F5F5F5;
+    height: 630px;
+    width: 100%;
+    background-repeat: repeat-y;
+    background-image: linear-gradient(100deg, rgba(245, 245, 245, 0), rgba(245, 245, 245, 0.5) 50%, rgba(245, 245, 245, 0) 80%), linear-gradient(#F5F5F5 40px, transparent 0), linear-gradient(#F5F5F5 15px, transparent 0), linear-gradient(#F5F5F5 12px, transparent 0), linear-gradient(#F5F5F5 12px, transparent 0), linear-gradient(#F5F5F5 12px, transparent 0), linear-gradient(#F5F5F5 12px, transparent 0), linear-gradient(#F5F5F5 1px, transparent 0);
+    background-size: 50px 140px, 40px 140px, 60px 140px, 80px 140px, 80% 140px, 60% 140px, 90% 140px, 100% 140px;
+    background-position: 0 0, 10px 10px, 60px 10px, calc(100% - 10px) 10px, 10px 60px, 10px 80px, 10px 100px, 0 130px;
+    -webkit-animation: loading-skeleton-animation-uatxb296m 1s infinite;
+    animation: loading-skeleton-animation-uatxb296m 1s infinite;
+  }
+  @-webkit-keyframes loading-skeleton-animation-uatxb296m {
+    to {
+      background-position: calc(100% + 50px) 0, 10px 10px, 60px 10px, calc(100% - 10px) 10px, 10px 60px, 10px 80px, 10px 100px, 0 130px;
+    }
+  }
+  @keyframes loading-skeleton-animation-uatxb296m {
+    to {
+      background-position: calc(100% + 50px) 0, 10px 10px, 60px 10px, calc(100% - 10px) 10px, 10px 60px, 10px 80px, 10px 100px, 0 130px;
+    }
+  }
+
+  /* Skeleton Layout Animator End */
+
+
+  div#ca_filter_loaderspinner {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border: 3px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 3px solid #3498db;
+    width: 30px;
+    height: 30px;
+    z-index: 50000;
+    -webkit-animation: spin .5s linear infinite;
+    animation: spin 0.5s linear infinite
+  }
+
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  /*.collection-filters, .pagination-custom, .filters-toolbar-wrapper
+  {
+  display: none;
+  }*/
+  div#shopify-section-capps-collection-sorts
+  {
+    font-size: {{ settings.ca_sorting_textsize }}px;
+    color: {{ settings.ca_sorting_textcolor }};
+  }
+  select#ca_filter_sortbyselect
+  {
+    font-size: {{ settings.ca_sorting_textsize }}px;
+    width: 30%;
+    float: right;
+    color: {{ settings.ca_sorting_textcolor }};
+  }
+  select#ca_filter_sortbyselect>option
+  {
+    font-size: {{ settings.ca_sorting_textsize }}px;
+    color: {{ settings.ca_sorting_textcolor }};
+  }
+  /*div#ca_swatchy_filtery_viewmorebtndiv
+  {
+  width: 70%;
+  text-align: center;
+  float: right;
+  margin-top: {{ settings.ca_filter_shownextbtnTopMargin }}px;
+  }
+  button#ca_swatchy_filtery_viewmorebtn
+  {
+  background-color: {{ settings.ca_filter_shownextbtnbgcolor }};
+  color: {{ settings.ca_filter_shownextbtntextcolor }};
+  text-transform: capitalize;
+  }*/
+  h1#ca_filtertitle
+  {
+    color: {{ settings.ca_filter_titletextcolor }};
+    font-size: {{ settings.ca_filter_titlefontsize }}px;
+    text-align: center;
+    font-style: normal;
+    width: 100;
+  }
+  div#shopify-section-ca_collection_filters
+  {    
+    background-color: {{ settings.ca_filter_bgcolor }};
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    {% if settings.ca_filter_type == 'Vertical' %}
+    width: {{ settings.ca_filter_width }}%;
+    {% else %}
+    width: 100%;
+    {% endif %}   
+    float: left;
+  }
+  /*div#ca_filterdiv
+  {
+  border-radius: 5px;    
+  background-color: {{ settings.ca_filter_bgcolor }};
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid {{ settings.ca_filter_bordercolor }};   
+  float: left;
+  }*/
+  /*.ca_filter_accordion {
+  background-color: {{ settings.ca_filter_filternamebgcolor }};
+  color: {{ settings.ca_filter_filternametextcolor }};
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: 0;
+  font-size: {{ settings.ca_filter_filternametextsize }}px;
+  transition: .4s;
+  padding-bottom: 0;
+  font-weight: bold;
+  border: 1px solid {{ settings.ca_filter_filternametextbordercolor }};
+  }*/
+
+
+  .ca_filter_active:after {
+    content: "\002B"!important;
+    font-size: {{ settings.ca_filter_filternametextsize }}px;
+  }
+  .ca_filter_accordion:after {
+    content: '\2212';
+    color: {{ settings.ca_filter_filternametextcolor }};
+    font-weight: 700;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: {{ settings.ca_filter_filternametextsize }}px;
+  }
+
+  .ca_filter_panel ul {
+    padding: 5px;
+  }
+
+  .ca_filter_panel {
+    margin-top: 10px;
+    background-color: {{ settings.ca_filter_bgcolor }};    
+    max-height: 150px;
+    overflow: hidden;
+    transition: max-height .2s ease-out;
+    margin-top: 0;
+    /*margin: 5px;*/
+    float: left;
+
+  }
+  .ca_filter_div
+  {
+
+  }
+  .ca_filter_panel>ul>li {
+    list-style-type: none
+  }
+  div#ca_filter_show_next_btndiv
+  {
+    width: 100%;
+    text-align: center;
+    float: right;
+  }
+  button#ca_filter_show_next_btn
+  {
+    margin-top: 10px;
+    text-align: center;
+    background-color: {{ settings.ca_filter_shownextbtnbgcolor }};
+    color: {{ settings.ca_filter_shownextbtntextcolor }};
+  }
+  div.ca_filtery_btn
+  {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    color: #000;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: {{ settings.ca_filter_filternametextsize }}px;
+  }
+  h3.ca_filter_h3
+  {
+    text-transform: uppercase;
+    color: {{ settings.ca_filter_filternametextcolor }};
+    width: 80%;
+    float: left;
+    font-size: {{ settings.ca_filter_filternametextsize }}px;
+    margin-bottom: 2px;
+  }
+
+  /* Product Layout */
+  div#ca_filterdiv_main
+  {
+    {% if settings.ca_filter_type == 'Vertical' %}
+    width: {{ settings.ca_filter_width }}%;
+    float: left;
+    {% else %}
+    width: 100%; 
+    {% endif %}    
+
+  }
+  div#ca_filterdiv
+  {
+    opacity: 1;
+    background-color: {{ settings.ca_filter_bgcolor }};
+    display: inline-block;	
+    width: 100%;   
+    /*border-bottom: 1px solid {{ settings.ca_filter_filternametextbordercolor }};*/ 
+    border-radius: 5px;  
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid {{ settings.ca_filter_bordercolor }};   
+    float: left;
+  }
+  /*#caf_collectionsgrid
+  {
+  {% if settings.ca_filter_type == 'Vertical' %} 
+  float: right;
+  width: 80%;
+  {% else %}
+  width: 100%;
+  {% endif %}
+
+
+  }*/
+
+  div#shopify-section-caf_filters_section
+  {
+    width: 20%;
+    float: left;
+    /* display: none;*/
+  }
+  .ca_filter_checkmark
+  {
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #DADADA;
+  }
+  p#ca_filter_pricerangevalue
+  {
+    width: 100%;
+    text-align: center;
+  }
+  /* This line can be removed it was just for display on CodePen: */
+  .container {
+    margin-top: 10px;
+  }
+
+  .slider-labels {
+    margin-top: 10px;
+  }
+
+  /*.collection-filters, .pagination-custom, .filters-toolbar-wrapper
+  {
+  display: none;
+  }*/
+  div#shopify-section-capps-collection-sorts
+  {
+    font-size: {{ settings.ca_sorting_textsize }}px;
+    color: {{ settings.ca_sorting_textcolor }};
+  }
+  select#ca_filter_sortbyselect
+  {
+    font-size: {{ settings.ca_sorting_textsize }}px;
+    width: 30%;
+    float: right;
+    color: {{ settings.ca_sorting_textcolor }};
+  }
+  select#ca_filter_sortbyselect>option
+  {
+    font-size: {{ settings.ca_sorting_textsize }}px;
+    color: {{ settings.ca_sorting_textcolor }};
+  }
+  div#ca_swatchy_filtery_viewmorebtndiv
+  {
+    width: 70%;
+    text-align: center;
+    float: right;
+    margin-top: {{ settings.ca_filter_shownextbtnTopMargin }}px;
+  }
+  button#ca_swatchy_filtery_viewmorebtn
+  {
+    background-color: {{ settings.ca_filter_shownextbtnbgcolor }};
+    color: {{ settings.ca_filter_shownextbtntextcolor }};
+    text-transform: capitalize;
+  }
+  button#ca_filtertitle
+  {
+    color: {{ settings.ca_filter_titletextcolor }};
+    font-size: {{ settings.ca_filter_titlefontsize }}px;
+    text-align: center;
+    font-style: normal;
+    width: 100;
+  }
+  div#shopify-section-ca_collection_filters
+  {    
+    background-color: {{ settings.ca_filter_bgcolor }};
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    {% if settings.ca_filter_type == 'Vertical' %}
+    width: {{ settings.ca_filter_width }}%;
+    {% else %}
+    width: 100%;
+    {% endif %}   
+    float: left;
+    border-radius: 5px;
+  }
+  /*div#ca_filterdiv
+  {
+
+  width: {{ settings.ca_filter_width }}%;
+  background-color: {{ settings.ca_filter_bgcolor }};
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid {{ settings.ca_filter_bordercolor }};   
+  float: left;
+
+  }*/
+  .ca_filter_accordion {
+    background-color: {{ settings.ca_filter_bgcolor }};
+    color: {{ settings.ca_filter_filternametextcolor }};
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: 0;
+    font-size: {{ settings.ca_filter_filternametextsize }}px;
+    transition: .4s;
+    padding-bottom: 0;
+    font-weight: bold;
+    /*border-bottom: 1px solid {{ settings.ca_filter_filternametextbordercolor }};*/
+  }
+  div.ca_filter_div {
+    background-color: {{ settings.ca_filter_bgcolor }};
+    display: inline-block;	
+    {% if settings.ca_filter_type == 'Vertical' %} 
+    width: 100%;
+    {% else %}
+    width: {{ settings.ca_filter_width }}%;
+    {% endif %}
+    /*border-bottom: 1px solid {{ settings.ca_filter_filternametextbordercolor }};*/   
+    border-bottom: 1px solid {{ settings.ca_filter_filternametextbordercolor }};
+  }
+
+  div#ca_filter_show_next_btndiv
+  {
+    width: 100%;
+    text-align: center;
+    float: right;
+  }
+  button#ca_filter_show_next_btn
+  {
+    margin-top: 10px;
+    text-align: center;
+    background-color: {{ settings.ca_filter_shownextbtnbgcolor }};
+    color: {{ settings.ca_filter_shownextbtntextcolor }};
+  }
+  div.ca_filtery_btn
+  {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    color: #000;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: {{ settings.ca_filter_filternametextsize }}px;
+  }
+
+  h1.ca_filters_filtertypeh1
+  {
+    font-size:{{ settings.ca_filter_filternametextsize }}px; 
+    background-color: {{ settings.ca_filter_bordercolor }}; 
+    color: {{ settings.ca_filter_bordercolor}};
+    vertical-align: middle; 
+    height: 20px; 
+    line-height: 20px;
+    text-align: center;
+  }
+</style>
+<input type="hidden" id="caf_filterresults_url" name="caf_filterresults_url" value="" />
+<input type="hidden" id="caf_filterresults_input" name="caf_filterresults_input" value="" />
+<input type="hidden" id="collection_products_count" name="collection_products_count" value="{{ collection.all_products_count }}" />
+
+{% if template.name == 'collection' %}
+<!--<div id="ca_filter_bar">
+<span id="ca_filter_bar_text">{% if cart != null %}{% if cart.attributes.caf_filters_count != null %}{{ cart.attributes.caf_filters_count }}{%else %}{{ collection.all_products_count }}{% endif %}{% endif %} products found</span>   
+<div id="ca_filter_sortbydiv">
+<select name="sort_by" id="ca_filter_sortbyselect" data-default-sortby="title-ascending" style="width: 187px;">     
+<option value="title-ascending" selected="selected">Alphabetically, A-Z</option>
+<option value="title-descending">Alphabetically, Z-A</option>
+<option value="price-ascending">Price, low to high</option>
+<option value="price-descending">Price, high to low</option>
+<option value="created-ascending">Date, old to new</option>
+<option value="created-descending">Date, new to old</option>
+</select>
+</div>
+</div>-->
+<!-- offcanvas panel -->
+<!--<aside class="offcanvas" id="my_offcanvas1">
+	<header class="p-4 bg-light border-bottom">
+		<button class="btn btn-outline-danger btn-close"> &times Close </button>
+		<h6 class="mb-0">First offcanvas </h6>
+	</header>
+	<nav class="list-group list-group-flush">
+		<a href="#" class="list-group-item">Home</a>
+		<a href="#" class="list-group-item">About us</a>
+		<a href="#" class="list-group-item">Menu name 1</a>
+		<a href="#" class="list-group-item">Menu name 2</a>
+		<a href="#" class="list-group-item">Menu name 3</a>
+	</nav>
+</aside>-->
+  
+<div id="ca_filter_headerdiv">
+  <div id="ca_filter_header_innerdivleft">
+    <span id="ca_filter_productscount">{{ collection.all_products_count }} Products</span>
+  </div>
+  <div id="ca_filter_header_innerdivright">   
+    <select id="ca_filter_sortby" style="float: right;">
+     <option selected disabled>--- Sort By ---</option>
+    <option value="best-selling">Best Selling</option>
+    <option value="title-ascending">Title A-Z</option>
+    <option value="title-descending">Title Z-A</option>
+    <option value="price-ascending">Price, Low To High</option>
+    <option value="price-descending">Price, High To Low</option>
+    <option value="created-ascending">New To Old</option>
+    <option value="created-descending">Old To New</option>
+  </select>
+  </div>
+</div>
+<div id="ca_filterdiv_main" style="display: none;">   
+  <div id="ca_filters_skeletondiv" style="display: none;" class="ca_filters_skeletondiv">
+    <div class="skeleton-loading">
+      <div class="sk-product-pic"></div>
+      <div class="sk-product-name"></div>  
+      <div class="sk-product-price"></div>
+    </div>
+    <div class="skeleton-loading">
+      <div class="sk-product-pic"></div>
+      <div class="sk-product-name"></div>  
+      <div class="sk-product-price"></div>
+    </div>
+    <div class="skeleton-loading">
+      <div class="sk-product-pic"></div>
+      <div class="sk-product-name"></div>  
+      <div class="sk-product-price"></div>
+    </div>
+    <div class="skeleton-loading">
+      <div class="sk-product-pic"></div>
+      <div class="sk-product-name"></div>  
+      <div class="sk-product-price"></div>
+    </div>
+    <div class="skeleton-loading">
+      <div class="sk-product-pic"></div>
+      <div class="sk-product-name"></div>  
+      <div class="sk-product-price"></div>
+    </div>
+    <div class="skeleton-loading">
+      <div class="sk-product-pic"></div>
+      <div class="sk-product-name"></div>  
+      <div class="sk-product-price"></div>
+    </div>
+    <div class="skeleton-loading">
+      <div class="sk-product-pic"></div>
+      <div class="sk-product-name"></div>  
+      <div class="sk-product-price"></div>
+    </div>
+    <div class="skeleton-loading">
+      <div class="sk-product-pic"></div>
+      <div class="sk-product-name"></div>  
+      <div class="sk-product-price"></div>
+    </div>
+    <div class="skeleton-loading">
+      <div class="sk-product-pic"></div>
+      <div class="sk-product-name"></div>  
+      <div class="sk-product-price"></div>
+    </div>
+    <div class="skeleton-loading">
+      <div class="sk-product-pic"></div>
+      <div class="sk-product-name"></div>  
+      <div class="sk-product-price"></div>
+    </div>
+  </div>
+  <input type="hidden" id="ca_filter_colorfilters" name="ca_filter_colorfilters" value="{{ settings.ca_filter_colorfilters }}" />      
+  <input type="hidden" id="ca_filter_type_input" name="ca_filter_type_input" value="{{ settings.ca_filter_type }}"/>
+  <input type="hidden" id="ca_filter_width_productsperpage" name="ca_filter_width_productsperpage" value="{{ settings.ca_filter_width_productsperpage }}" />
+  <input type="hidden" id="caf_filter_template" name="caf_filter_template" value="{{ template.name }}" />
+  {% assign cafiltertype = settings.ca_filter_type %}
+  {% assign cafiltermetafields = collection.metafields.cafiltersapp %}
+  {% assign cafiltermetafield = cafiltermetafields.allfiltervalues %}
+  {% assign cafilterList = cafiltermetafield | split:'@' %}   
+  {% assign filterLoopCounter = 1 %}
+  {% assign filtersListSize = cafilterList.size %}
+  {% assign filtersListSize_ProductType = 0 %}
+  {% assign filtersListSize_ProductVendor = cafilterList.size %}
+  <input type="hidden" id="ca_filters_productscount" value="{{ collection.all_products_count }}" />
+  {% if settings.ca_filters_enable %}
+  <!--<div class="ca_filters_skeletonbox"></div>-->
+  <input type="hidden" id="ca_filter_typevalue" name="ca_filter_typevalue" value="{{ settings.ca_filter_type }}" />
+  <input type="hidden" id="ca_filter_swatchcolornames" name="ca_filter_swatchcolornames" value="{{ settings.ca_filter_swatchcolornames }}" />
+  <input type="hidden" id="ca_filter_shownextbtntextinput" name="ca_filter_shownextbtntextinput" value="{{ settings.ca_filter_shownextbtntext }}" />
+  <input type="hidden" id="ca_collectionproductscountvalue" name="ca_collectionproductscountvalue" value="{{ collection.all_products_count }}" />
+
+  <input type="hidden" id="ca_filter_type" name="ca_filter_type" value="{{ settings.ca_filter_type }}" />
+  {% if settings.ca_filter_type == 'Vertical' %}
+  <div id="ca_filterdiv" style="background: transparent;">
+    <!--<label id="ca_filtertitle">{{ settings.ca_filter_titletext }}</label>-->
+    <!--<button class="btn" id="caf_filter_button" type="button">Show Results</button>-->
+    <!--<a rel="prefetch" href="" data-trigger="#my_offcanvas1" id="caf_filter_button" class="btn" style="padding:5px; min-width: 200px;">Show Results</a>-->
+    {% for cafilter in cafilterList %}
+    {% if filterLoopCounter == 1 %}
+    {% assign producttypelist = cafilter | split: '_' %}
+    <div id="ca_filter_producttype_container" class="ca_filter_div">
+      <button type="button" id="ca_filter_producttype_accordion" class="ca_filter_accordion"><h3 class="ca_filter_h3">Product Type</h3></button>
+      <div class="ca_filter_panel">
+        <ul>       
+          {% for _producttype in producttypelist %}
+          {% assign _producttypetext = _producttype | split: '#' %}
+          {% assign producttype = _producttypetext[0] %}
+          {% assign producttypecount = _producttypetext[1] %}        
+          <li>
+            <label class="ca_filter_container">{{ producttype }} ({{ producttypecount }})
+              <input data-filtername="ca_filter_producttype" id="{{ producttype }}" name="{{ producttype }}" class="ca_filtery_checkbox" type="checkbox" value="{{ producttype }}">
+              <span class="ca_filter_checkmark"></span>
+            </label>
+          </li>
+          {% endfor %}
+          <input class="ca_filter_hiddeninput" type="hidden" name="ca_filtervalue_producttype" id="ca_filtervalue_producttype" value="" />
+
+        </ul>
+      </div>
+    </div>
+    {% endif %}
+    {% if filterLoopCounter == 2 %}
+    {% assign productvendorlist = cafilter | split: '_' %}
+    <div id="ca_filter_productvendor_container" class="ca_filter_div">
+      <button type="button" id="ca_filter_vendor_accordion" class="ca_filter_accordion"><h3 class="ca_filter_h3">Product Vendor</h3></button>
+      <div class="ca_filter_panel">
+        <ul>
+          {% for _productvendor in productvendorlist %}
+          {% assign _productvendortext = _productvendor | split: '#' %}
+          {% assign productvendor = _productvendortext[0] %}
+          {% assign productvendorcount = _productvendortext[1] %}
+
+          <li>
+            <label class="ca_filter_container">{{ productvendor }} ({{ productvendorcount }})
+              <input data-filtername="ca_filter_vendor" id="{{ productvendor }}" name="{{ productvendor }}" class="ca_filtery_checkbox" type="checkbox" value="{{ productvendor }}">
+              <span class="ca_filter_checkmark"></span>
+            </label>
+          </li>
+          {% endfor %}
+          <input class="ca_filter_hiddeninput" type="hidden" name="ca_filtervalue_vendor" id="ca_filtervalue_vendor" value="" />
+        </ul>
+      </div>
+    </div>
+    {% endif %}  
+    {% if filterLoopCounter > 3 %}
+    {% assign optionsstringList = cafilter | split: '_' %}
+    {% assign optionsCounter = 0 %}  
+    {% assign optionName = optionsstringList[0] %}
+    {% assign isbuttonfilter = false %}
+    {% assign iscolorfilter = false %}
+    {% if settings.ca_filter_buttonfilters contains optionName %}
+    {% assign isbuttonfilter = true %}
+    {% endif %}
+    {% if settings.ca_filter_colorfilters contains optionName %}
+    {% assign iscolorfilter = true %}
+    {% endif %}
+    {% if optionName != '' %}
+    <input type="hidden" id="{{ optionName }}" name="{{ optionName }}" class="ca_filter_option_inputs ca_filter_variant_option_inputs" value="" />
+    {% endif %}
+    <div id="ca_filter_option_container_{{ optionName }}" class="ca_filter_div">
+      <button type="button" id="ca_filter_option_accordion_{{ optionName }}" class="ca_filter_accordion"><h3 class="ca_filter_h3">{{ optionName }}</h3></button>
+      <div class="ca_filter_panel">
+        <ul>
+          {% for option in optionsstringList %}   
+          {% if optionsstringList.size > 0 %}
+          {% if optionsCounter > 0 %}
+          {% assign colornamesList = colornamesarray | split: ',' %}
+          {% assign options_string_list = option | split: '#' %}
+          {% assign optionValue = options_string_list[0] %}
+          {% assign optionCount = options_string_list[1] %}
+          {% if settings.ca_filters_enable %}
+          {% if isbuttonfilter == true %}
+          <div data-optionName="{{ optionName }}" data-variantscount="{{ optionCount }}" style="display: inline-block; margin-right: 5px;" data-filtername="ca_filter_option_{{ optionName }}" id="{{ optionValue }}" class="ca_filtery_checkbox ca_filtery_btn" value="{{ optionValue }}" data-ischecked="false">{{ optionValue }}
+          </div>
+          {% endif %}
+          {% if iscolorfilter == true %}
+
+          {% assign _ColorValue = '' %}                    
+          {% assign colorcodeslist = colorvaluesarray | split: ',' %}  
+          {% for colorcode in colorcodeslist %}
+          {% assign _colorname = colorcode | split: '_' %}
+          {% assign colorname = _colorname[0] %}
+          {% assign colorname = colorname | replace: 'andsymbol', '&' %}
+          {% assign colorname = colorname | replace: 'plussymbol', '+' %}
+          {% assign colorname = colorname | replace: 'slashsymbol', '/' %}
+          {% assign _colorvaluesstring = colorcode | split: '_' %}
+          {% assign colorvaluesstring = _colorvaluesstring[1] %}
+
+          {% assign  colorvaluesList = '' %}
+          {% assign  colorvalue1 = '' %}
+          {% assign  colorvalue2 = '' %}
+          {% assign  colorvalue3 = '' %}
+          {% if colorvaluesstring != '' %}
+          {% assign colorvaluesList = colorvaluesstring | split: '*' %}
+          {% assign colorvalue1 = colorvaluesList[0] %}
+          {% assign colorvalue2 = colorvaluesList[1] %}
+          {% assign colorvalue3 = colorvaluesList[2] %}
+          {% endif %}                     
+          {% if optionValue == colorname %}                        
+          {% assign _ColorValue = colorvalue1 %}
+          {% endif %}
+          {% endfor %}
+          {% assign _colorname = _ColorValue %}
+          {% if settings.ca_filter_swatchshape == 'Circular' %}
+          <div data-optionName="{{ optionName }}" data-variantscount="{{ optionCount }}" style="display: inline-block; background-color: #{{ _colorname }}; width: 30px; height: 30px; line-height: 30px; margin-right: 5px; border-radius: 50%;" title="{{ optionValue }}" data-filtername="ca_filter_option_{{ optionName }}" id="{{ optionValue }}" class="ca_filtery_checkbox ca_filtery_btn ca_filtery_color_btn" value="{{ optionValue }}" data-ischecked="false">
+          </div>
+          {% else %}
+          <div data-optionName="{{ optionName }}" data-variantscount="{{ optionCount }}" style="display: inline-block; background-color: #{{ _colorname }}; width: 30px; height: 30px; line-height: 30px; margin-right: 5px; border-radius: 2%;" title="{{ optionValue }}" data-filtername="ca_filter_option_{{ optionName }}" id="{{ optionValue }}" class="ca_filtery_checkbox ca_filtery_btn ca_filtery_color_btn" value="{{ optionValue }}" data-ischecked="false">
+          </div>
+          {% endif %}
+
+          {% endif %}
+          {% if isbuttonfilter == false and iscolorfilter == false  %}
+          <li>
+            <label class="ca_filter_container">{{ optionValue }} ({{ optionCount }})
+              <input data-optionname="{{ optionName }}" id="{{ optionValue }}" name="{{ optionValue }}" class="ca_filtery_checkbox ca_filtery_btn ca_filtery_color_btn" type="checkbox" value="{{ optionValue }}">
+              <span class="ca_filter_checkmark"></span>
+            </label>
+          </li>       
+          {% endif %}         
+          {% endif %}
+          {% endif %}
+          {% endif %}
+          {% assign optionsCounter = optionsCounter | plus: 1 %}
+          {% endfor %}
+
+        </ul>
+      </div>
+    </div>
+    {% endif %}
+    {% assign filterLoopCounter = filterLoopCounter | plus: 1 %}
+    {% endfor %}
+    <div id="ca_filter_stockavailability_container" class="ca_filter_div"><button type="button" id="ca_filter_stockavailability_accordion" class="ca_filter_accordion"><h3 class="ca_filter_h3">Stock Availability</h3></button>
+      <div class="ca_filter_panel">
+        <ul>
+          <li>
+            <label class="ca_filter_container">Exlude Out Of Stock
+              <input data-filtername="ca_filter_stockavailability" id="stockavailability" name="stockavailability" class="ca_filtery_checkbox" type="checkbox" value="false">
+              <span class="ca_filter_checkmark"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+    {% assign pricerangelist = cafilterList[2] | split: '_' %}
+    {% if pricerangelist.size > 0 %}
+    {% assign budgetArrayString = '' %}
+    {% assign budgetArrayValuesString = '' %}
+    {% for _pricerange in pricerangelist %}
+    {% assign __pricerangetext = _pricerange | split: '#' %}
+    {% assign _pricerangetext = __pricerangetext[0] | split: '*' %}
+    {% assign budgetfrom = _pricerangetext[0] %}
+    {% assign budgetto = _pricerangetext[1] %}
+    {% if budgetArrayValuesString == '' %}
+    {% assign budgetArrayValuesString = budgetArrayValuesString | append: budgetfrom %}  
+    {% assign budgetArrayValuesString = budgetArrayValuesString | append: ',' %}
+    {% assign budgetArrayValuesString = budgetArrayValuesString | append: budgetto %}
+    {% else %}
+    {% assign budgetArrayValuesString = budgetArrayValuesString | append: ',' %}
+    {% assign budgetArrayValuesString = budgetArrayValuesString | append: budgetfrom %}
+    {% assign budgetArrayValuesString = budgetArrayValuesString | append: ',' %}
+    {% assign budgetArrayValuesString = budgetArrayValuesString | append: budgetto %}	
+    {% endif %}
+    {% if budgetArrayString == '' %}
+    {% assign budgetArrayString = budgetArrayString | append: budgetfrom %}
+    {% assign budgetArrayString = budgetArrayString | append: ',' %}
+    {% assign budgetArrayString = budgetArrayString | append: budgetto %}
+    {% else %}
+    {% assign budgetArrayString = budgetArrayString | append: ',' %}
+    {% assign budgetArrayString = budgetArrayString | append: budgetfrom %}
+    {% assign budgetArrayString = budgetArrayString | append: ',' %}
+    {% assign budgetArrayString = budgetArrayString | append: budgetto %}
+    {% endif %}  
+    {% endfor %}   
+    {% assign budgetArray = budgetArrayString | split: ',' %}        
+    {% endif %}
+    <div id="ca_filter_budget_container" class="ca_filter_div">
+      <button type="button" id="ca_filter_budget_accordion" class="ca_filter_accordion"><h3 class="ca_filter_h3">Price Range</h3></button>
+      <div class="ca_filter_panel" style="width: 100%;">
+        <!--<div class="range-slider">
+<span class="rangeValues"></span>
+<input class="caf_budget_input" value="{{ budgetArray.first }}" min="{{ budgetArray.first }}" max="{{ budgetArray.last }}" step="1" type="range">
+<input class="caf_budget_input" value="{{ budgetArray.last }}" min="{{ budgetArray.first }}" max="{{ budgetArray.last }}" step="1" type="range">
+</div>-->
+        <div class="range-slider">
+          <span class="rangeValues"></span>
+          <input value="1000" min="1000" max="50000" step="500" type="range">
+          <input value="50000" min="1000" max="50000" step="500" type="range">
+        </div>
+        <input class="ca_filter_hiddeninput" type="hidden" id="ca_filtervalue_budget" style="float: right; width: 40%; font-size: 12px; border: none;" type="number" value="" min="{{ budgetArray.first }}" max="{{ budgetArray.last }}"/>
+
+        <!--<div class="range-slider">
+<span>
+<span class="money" id="ca_filtervalue_budgetminspan" style="float: left; width: 40%; font-size: 12px; border: none;" value="{{ budgetArray.first }}" min="{{ budgetArray.first }}" max="{{ budgetArray.last }}">{{ budgetArray.first }}</span>
+<span  class="money" id="ca_filtervalue_budgetmaxspan" style="float: right; width: 40%; font-size: 12px; border: none;" value="{{ budgetArray.last }}" min="{{ budgetArray.first }}" max="{{ budgetArray.last }}">{{ budgetArray.last }}</span>
+<input type="hidden" class="money" id="ca_filtervalue_budgetmin" style="float: left; width: 40%; font-size: 12px; border: none;" type="number" value="{{ budgetArray.first }}" min="{{ budgetArray.first }}" max="{{ budgetArray.last }}" />
+<input type="hidden" class="money" id="ca_filtervalue_budgetmax" style="float: right; width: 40%; font-size: 12px; border: none;" type="number" value="{{ budgetArray.last }}" min="{{ budgetArray.first }}" max="{{ budgetArray.last }}" />
+<input class="ca_filter_hiddeninput" type="hidden" id="ca_filtervalue_budget" style="float: right; width: 40%; font-size: 12px; border: none;" type="number" value="" min="{{ budgetArray.first }}" max="{{ budgetArray.last }}"/>
+
+</span>
+<input style="border: none;" value="{{ budgetArray.first }}" min="{{ budgetArray.first }}" max="{{ budgetArray.last }}" step="1" type="range"/>
+<input style="border: none;" value="{{ budgetArray.last }}" min="{{ budgetArray.first }}" max="{{ budgetArray.last }}" step="1" type="range"/>              
+</div>-->
+      </div>
+      <!--<div id="ca_filter_pricerangeboxes" style="height: 50px;">
+<input style="width: 45%; float: left;" id="ca_filter_pricerangeboxmin" type="text" disabled="disabled" value="" />
+to
+<input style="width: 45%; float: right;" id="ca_filter_pricerangeboxmax" type="text" disabled="disabled" value="" />
+</div>-->
+      <!--<p id="ca_filter_pricerangevalue"></p>-->
+      <!--<div class="container" style="width: 80%; text-align: center; margin-left: 10%; margin-right: 10%;">       
+<div class="row">
+<div class="col-sm-12">
+<div id="slider-range"></div>
+</div>
+</div>        
+<div class="row slider-labels">
+<div class="col-xs-6 caption">
+<input type="hidden" id="ca_filter_pricerange_min" name="ca_filter_pricerange_min" value="" />            
+</div>
+<div class="col-xs-6 text-right caption">
+<input type="hidden" id="ca_filter_pricerange_max" name="ca_filter_pricerange_max" value="" />            
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<form>
+<input type="hidden" name="min-value" value="">
+<input type="hidden" name="max-value" value="">
+</form>
+</div>
+</div>
+</div>-->
+      <!-- <input class="ca_filter_hiddeninput" type="hidden" name="ca_filtervalue_budget" id="ca_filtervalue_budget" value="" />-->
+
+    </div>
+ <div id="ca_filter_starrating_container" class="ca_filter_div">
+      <button type="button" id="ca_filter_starrating_accordion" class="ca_filter_accordion"><h3 class="ca_filter_h3">Review Rating</h3></button>
+      <div class="ca_filter_panel">
+        <ul> 
+           <li>
+            <div class="ca-star-ratings-css">
+            <div class="ca-star-ratings-css-top" style="width: 100%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <div class="ca-star-ratings-css-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          </div>
+          </li>
+          <li>
+            <div class="ca-star-ratings-css">
+            <div class="ca-star-ratings-css-top" style="width: 80%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <div class="ca-star-ratings-css-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          </div>
+          </li>
+           <li>
+            <div class="ca-star-ratings-css">
+            <div class="ca-star-ratings-css-top" style="width: 60%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <div class="ca-star-ratings-css-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          </div>
+          </li>
+           <li>
+            <div class="ca-star-ratings-css">
+            <div class="ca-star-ratings-css-top" style="width: 40%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <div class="ca-star-ratings-css-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          </div>
+          </li>
+           <li>
+            <div class="ca-star-ratings-css">
+            <div class="ca-star-ratings-css-top" style="width: 20%"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+            <div class="ca-star-ratings-css-bottom"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          </div>
+          </li>
+        </ul>
+        <input class="ca_filter_hiddeninput" type="hidden" name="ca_filtervalue_starrating" id="ca_filtervalue_starrating" value="" />
+      </div>
+    </div>
+    
+  </div>
+  {% endif %}
+
+  <!--<div id="ca_swatchy_filtery_viewmorebtndiv">
+<button type="button" id="ca_swatchy_filtery_viewmorebtn" name="ca_swatchy_filtery_viewmorebtn" class="btn">{{ settings.ca_filter_shownextbtntext }}</button>
+</div>-->
+  {% if settings.ca_filter_type == 'Horizontal' %} 
+  <div id="ca_filterdiv" class="menu-container">
+    <div class="menu">
+      <ul>
+        <!-- Product Type -->
+        {% for cafilter in cafilterList %}
+        {% if filterLoopCounter == 1 %}
+        {% assign producttypelist = cafilter | split: '_' %}  
+        <li><a href="#">Product Type</a>   
+          <ul class="box top">
+            {% for _producttype in producttypelist %}
+            {% assign _producttypetext = _producttype | split: '#' %}
+            {% assign producttype = _producttypetext[0] %}
+            {% assign producttypecount = _producttypetext[1] %}  
+            <li class="ca_filter_container_li" style="margin: 1px; padding: 1px;">
+              <label class="ca_filter_container">{{ producttype }} ({{ producttypecount }})
+                <input data-filtername="ca_filter_producttype" id="{{ producttype }}" name="{{ producttype }}" class="ca_filtery_checkbox" type="checkbox" value="{{ producttype }}">
+                <span class="ca_filter_checkmark"></span>
+              </label>
+            </li>
+
+            {% endfor %}
+            <button type="button" class="ca_filter_applybtn btn" id="ca_filter_applybtn_type">Apply</button>
+          </ul>
+        </li>   
+        <input class="ca_filter_hiddeninput" type="hidden" name="ca_filtervalue_producttype" id="ca_filtervalue_producttype" value="" />
+
+        {% endif %}
+
+        <!-- Vendor -->
+        {% if filterLoopCounter == 2 %}
+        {% assign productvendorlist = cafilter | split: '_' %}
+        <li><a href="#">Product Vendor</a>   
+          <ul class="box top">
+            {% for _productvendor in productvendorlist %}
+            {% assign _productvendortext = _productvendor | split: '#' %}
+            {% assign productvendor = _productvendortext[0] %}
+            {% assign productvendorcount = _productvendortext[1] %}
+
+            <li>
+              <label class="ca_filter_container">{{ productvendor }} ({{ productvendorcount }})
+                <input data-filtername="ca_filter_vendor" id="{{ productvendor }}" name="{{ productvendor }}" class="ca_filtery_checkbox" type="checkbox" value="{{ productvendor }}">
+                <span class="ca_filter_checkmark"></span>
+              </label>
+            </li>
+
+            {% endfor %}
+            <button type="button" class="ca_filter_applybtn btn" id="ca_filter_applybtn_type">Apply</button>
+          </ul>
+        </li>   
+        <input class="ca_filter_hiddeninput" type="hidden" name="ca_filtervalue_vendor" id="ca_filtervalue_vendor" value="" />
+
+        {% endif %}
+        <!-- Variant Options -->
+        {% if filterLoopCounter > 3 %}
+        {% assign optionsstringList = cafilter | split: '_' %}
+        {% assign optionsCounter = 0 %}  
+        {% assign optionName = optionsstringList[0] %}
+        {% assign isbuttonfilter = false %}
+        {% assign iscolorfilter = false %}
+        {% if settings.ca_filter_buttonfilters contains optionName %}
+        {% assign isbuttonfilter = true %}
+        {% endif %}
+        {% if settings.ca_filter_colorfilters contains optionName %}
+        {% assign iscolorfilter = true %}
+        {% endif %}
+        {% if optionName != '' %}
+        <input type="hidden" id="{{ optionName }}" name="{{ optionName }}" class="ca_filter_option_inputs ca_filter_variant_option_inputs" value="" />
+        {% endif %}
+
+        <li><a href="#">{{ optionName }}</a>   
+          <ul class="box top">
+            {% for option in optionsstringList %}   
+            {% if optionsstringList.size > 0 %}
+            {% if optionsCounter > 0 %}
+            {% assign colornamesList = colornamesarray | split: ',' %}
+            {% assign options_string_list = option | split: '#' %}
+            {% assign optionValue = options_string_list[0] %}
+            {% assign optionCount = options_string_list[1] %}
+            {% if settings.ca_filters_enable %}
+            {% if isbuttonfilter == false and iscolorfilter == false %}
+            <li>
+              <label class="ca_filter_container">{{ optionValue }} ({{ optionCount }})
+                <input data-filtername="ca_filter_vendor" id="{{ optionValue }}" name="{{ optionValue }}" class="ca_filtery_checkbox ca_filtery_btn" type="checkbox" value="{{ optionValue }}" data-filtername="ca_filter_option_{{ optionName }}" data-ischecked="false">
+                <span class="ca_filter_checkmark"></span>
+              </label>
+            </li>
+            {% endif %}
+            <!-- ButtonFilter -->
+            {% if isbuttonfilter == true %}
+            <!--<li>
+<label class="ca_filter_container">{{ optionValue }} ({{ optionCount }})
+<input data-filtername="ca_filter_vendor" id="{{ optionValue }}" name="{{ optionValue }}" class="ca_filtery_checkbox ca_filtery_btn" type="checkbox" value="{{ optionValue }}" data-filtername="ca_filter_option_{{ optionName }}" data-ischecked="false">
+<span class="ca_filter_checkmark"></span>
+</label>
+</li>-->
+            <div data-optionName="{{ optionName }}" data-variantscount="{{ optionCount }}" style="display: inline-block; margin-right: 5px;" data-filtername="ca_filter_option_{{ optionName }}" id="{{ optionValue }}" class="ca_filtery_checkbox ca_filtery_btn" value="{{ optionValue }}" >{{ optionValue }}
+            </div>
+            {% endif %}
+            <!-- ColorFilter -->
+            {% if iscolorfilter == true %}
+            {% assign _ColorValue = '' %}                    
+            {% assign colorcodeslist = colorvaluesarray | split: ',' %}  
+            {% for colorcode in colorcodeslist %}
+            {% assign _colorname = colorcode | split: '_' %}
+            {% assign colorname = _colorname[0] %}
+            {% assign colorname = colorname | replace: 'andsymbol', '&' %}
+            {% assign colorname = colorname | replace: 'plussymbol', '+' %}
+            {% assign colorname = colorname | replace: 'slashsymbol', '/' %}
+            {% assign _colorvaluesstring = colorcode | split: '_' %}
+            {% assign colorvaluesstring = _colorvaluesstring[1] %}
+
+            {% assign  colorvaluesList = '' %}
+            {% assign  colorvalue1 = '' %}
+            {% assign  colorvalue2 = '' %}
+            {% assign  colorvalue3 = '' %}
+            {% if colorvaluesstring != '' %}
+            {% assign colorvaluesList = colorvaluesstring | split: '*' %}
+            {% assign colorvalue1 = colorvaluesList[0] %}
+            {% assign colorvalue2 = colorvaluesList[1] %}
+            {% assign colorvalue3 = colorvaluesList[2] %}
+            {% endif %}                     
+            {% if optionValue == colorname %}                        
+            {% assign _ColorValue = colorvalue1 %}
+            {% endif %}
+            {% endfor %}
+            {% assign _colorname = _ColorValue %}
+            {% if settings.ca_filter_swatchshape == 'Circular' %}                  
+            <div data-optionName="{{ optionName }}" data-variantscount="{{ optionCount }}" style="display: inline-block; background-color: #{{ _colorname }}; width: 30px; height: 30px; line-height: 30px; margin-right: 5px; border-radius: 50%;" title="{{ optionValue }}" data-filtername="ca_filter_option_{{ optionName }}" id="{{ optionValue }}" class="ca_filtery_checkbox ca_filtery_btn ca_filtery_color_btn" value="{{ optionValue }}" data-ischecked="false">
+            </div>
+            {% else %}
+            <div data-optionName="{{ optionName }}" data-variantscount="{{ optionCount }}" style="display: inline-block; background-color: #{{ _colorname }}; width: 30px; height: 30px; line-height: 30px; margin-right: 5px; border-radius: 2%;" title="{{ optionValue }}" data-filtername="ca_filter_option_{{ optionName }}" id="{{ optionValue }}" class="ca_filtery_checkbox ca_filtery_btn ca_filtery_color_btn" value="{{ optionValue }}" data-ischecked="false">
+            </div>
+            {% endif %}
+
+            {% endif %}
+
+            {% endif %}
+            {% endif %}
+            {% endif %}
+            {% assign optionsCounter = optionsCounter | plus: 1 %}
+            {% endfor %}
+            <button type="button" class="ca_filter_applybtn btn" id="ca_filter_applybtn_type">Apply</button>
+          </ul>
+        </li>
+
+
+        {% endif %}
+
+        {% assign filterLoopCounter = filterLoopCounter | plus: 1 %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div> 
+  {% endif %}
+
+  {% endif %}
+</div>
+{% endif %}
