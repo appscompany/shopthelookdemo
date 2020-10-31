@@ -297,8 +297,8 @@ var Slick=window.Slick||{};(Slick=function(){var i=0;return function(e,t){var o,
             var _collectionpageataghrefslist = unique(_collectionpageataghrefslist_);
             console.log(_collectionpageataghrefslist_);
             var _parallelajaxArray = [];
-            var _ca_product_urlsList_ = document.getElementById('__ca_product_urlsinput').value;
-            var _ca_product_urlsList = _ca_product_urlsList_.split(',');
+            //var _ca_product_urlsList_ = document.getElementById('__ca_product_urlsinput').value;
+            //var _ca_product_urlsList = _ca_product_urlsList_.split(',');
             console.log(_collectionspageatags);
             for(var i=0; i<_collectionpageataghrefslist_.length; i++)
             {
