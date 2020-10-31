@@ -273,7 +273,7 @@ var Slick=window.Slick||{};(Slick=function(){var i=0;return function(e,t){var o,
           {
 
 
-            var _productsGridSelector = document.querySelectorAll('.grid.grid--uniform.grid--view-items')[0];
+            var _productsGridSelector = document.querySelectorAll('.grid.grid-uniform')[0];
             _productsGridSelector.style.overflow = 'hidden';
 
 
