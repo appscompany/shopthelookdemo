@@ -279,8 +279,7 @@ var Slick=window.Slick||{};(Slick=function(){var i=0;return function(e,t){var o,
             //_productsGridSelectors.style.overflow = 'hidden';
             var _collectionpageataghrefslist_ = [];
             var _collectionspageatags = [];
-            f
-          
+                      
             var _collectionspageatags = $(_productsGridSelectors).find('a');
             for(var c=0; c<_collectionspageatags.length; c++)
             {
