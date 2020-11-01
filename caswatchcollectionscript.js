@@ -275,19 +275,20 @@ var Slick=window.Slick||{};(Slick=function(){var i=0;return function(e,t){var o,
           {
 
 
-            var _productsGridSelector = document.querySelectorAll('.grid.grid-uniform.grid--spacer')[0];
-            _productsGridSelector.style.overflow = 'hidden';
-
-
-            var _collectionspageatags = $(_productsGridSelector).find('a');
+            var _productsGridSelectors = document.querySelectorAll('.grid__item.grid-product');
+            //_productsGridSelectors.style.overflow = 'hidden';
             var _collectionpageataghrefslist_ = [];
-
+            var _collectionspageatags = [];
+            f
+          
+            var _collectionspageatags = $(_productsGridSelectors).find('a');
             for(var c=0; c<_collectionspageatags.length; c++)
             {
+              var _tagclass = _collectionspageatags[c].className;
               var _ataghref = _collectionspageatags[c].href;
               if(_ataghref != "")
               {
-                if(_ataghref.indexOf('products') != -1)
+                if(_ataghref.indexOf('products') != -1 && _tagclass.includes('image') != true)
                 {
                   _collectionpageataghrefslist_.push(_ataghref);               
                 }
