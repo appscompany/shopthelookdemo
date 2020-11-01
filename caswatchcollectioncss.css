@@ -1,0 +1,41 @@
+.slick-slide img
+{
+  display: inline-block!important;
+  cursor: pointer;
+}
+.ca_rvitem
+{
+  cursor: pointer;
+}
+.ca_rvitem:hover
+{
+  opacity: 0.8;
+}
+{% if template.name != 'product' %}
+.caf_slideControls {
+  position: absolute;
+  /*width: 100%;*/
+  top: 47px;
+  left: 0;
+}
+.caf_slideControls i {
+  font-size: 30px;
+}
+.caf_slideControls .slideNext {
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+}
+.caf_slideControls .slidePrev {
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+}
+
+.slick-prev:before {
+  content: ' \276E'!important;
+}
+.slick-next:before {
+  content: ' \276F'!important;
+}
+{% endif %}
