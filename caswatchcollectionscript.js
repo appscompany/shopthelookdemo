@@ -287,7 +287,7 @@ var Slick=window.Slick||{};(Slick=function(){var i=0;return function(e,t){var o,
               var _ataghref = _collectionspageatags[c].href;
               if(_ataghref != "")
               {
-                if(_ataghref.indexOf('products') != -1 && _tagclass.includes('image') != true)
+                if(_ataghref.indexOf('products') != -1)
                 {
                   _collectionpageataghrefslist_.push(_ataghref);               
                 }
