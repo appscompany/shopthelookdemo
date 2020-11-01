@@ -275,7 +275,7 @@ var Slick=window.Slick||{};(Slick=function(){var i=0;return function(e,t){var o,
           {
 
 
-            var _productsGridSelectors = document.querySelectorAll('.grid__item.grid-product');
+            var _productsGridSelectors = document.querySelectorAll('.grid-product__image-wrapper');
             //_productsGridSelectors.style.overflow = 'hidden';
             var _collectionpageataghrefslist_ = [];
             var _collectionspageatags = [];
@@ -394,12 +394,12 @@ var Slick=window.Slick||{};(Slick=function(){var i=0;return function(e,t){var o,
                 var _product_handle = _productsjson[p].product.handle;
 
                 //console.log(_collectionspageatags);
-                for(var e=0; e<_collectionspageatags.length; e++)
+                for(var e=0; e<_collectionpageataghrefslist_.length; e++)
                 {
-                  var _atagHREF = _collectionspageatags[e].href;
+                  var _atagHREF = _collectionpageataghrefslist_[e].href;
                   if(_atagHREF.indexOf(_product_handle) != -1)
                   {
-                    var _parentElement = _collectionspageatags[e].parentElement;
+                    var _parentElement = _collectionpageataghrefslist_[e].parentElement;
                     $(_parentElement).after(_collectionswatchdiv);
                   }
                 }
