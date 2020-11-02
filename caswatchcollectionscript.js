@@ -261,7 +261,7 @@ var Slick=window.Slick||{};(Slick=function(){var i=0;return function(e,t){var o,
       $.get("https://autocolorswatches.apphb.com/Api/SwatchAppVariables/GetVariables?ShopName=" + _shopname, function (appvariables) {
 
         console.log(appvariables);
-        console.log(productstring);
+        //console.log(productstring);
         var _colornamesarray = 'Color,Colour,Fabric Color';   
         var _buttonnamesarray = 'Size';
         var colornamesarray = _colornamesarray;
