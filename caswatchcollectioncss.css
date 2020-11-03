@@ -1,3 +1,9 @@
+.slick-list
+{
+  display: inline-block!important;
+  width: 80%;
+  cursor: pointer;
+}
 .slick-slide img
 {
   display: inline-block!important;
@@ -34,7 +40,11 @@
 
 .slick-prev:before {
   content: ' \276E'!important;
+  float: left;
+  height: 40px;
 }
 .slick-next:before {
   content: ' \276F'!important;
+   float: right;
+  height: 40px;
 }
