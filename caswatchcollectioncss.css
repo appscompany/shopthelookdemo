@@ -58,3 +58,7 @@
    float: right;
   height: 40px;
 }
+button.slick-next.slick-arrow, button.slick-prev.slick-arrow
+{
+  vertical-align: middle;
+}
