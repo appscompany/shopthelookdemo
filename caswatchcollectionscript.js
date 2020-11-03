@@ -552,8 +552,8 @@
               swatchdiv.style.boxShadow = '0px 0px 0px ' + appvariables.Swatch_HighlightThickness + 'px #' + appvariables.Swatch_HighlightColor;
               var producturl = swatchdiv.getAttribute('swatchy-data-href');
               var imagesrc = swatchdiv.getAttribute('swatchy-data-variantimage');
-              var producthandleList = producturl.split('/');
-              var producthandle = producthandleList[2];
+             // var producthandleList = producturl.split('/');
+              //var producthandle = producthandleList[2];
               swatchdiv.style.border = '1px solid #eaeaea';
               var allatags = document.querySelectorAll('a');
               var variantid = swatchdiv.getAttribute('swatchy-data-variantid');
