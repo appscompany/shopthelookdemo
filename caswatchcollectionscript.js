@@ -406,7 +406,7 @@
                 var swatchcolorelements = document.querySelectorAll('.caf_swatch_div');
                 for (s = 0; s < swatchcolorelements.length; s++) {
                   var _colorElement = swatchcolorelements[s];
-                  _colorElement.style.width = appvariables.Swatch_Size + 'px';
+                  _colorElement.style.width = appvariables.Swatch_Size + 'px!important';
                   _colorElement.style.height = appvariables.Swatch_Size + 'px';
                   _colorElement.style.lineHeight = appvariables.Swatch_Size + 'px';
                   _colorElement.style.marginRight = '7px';
