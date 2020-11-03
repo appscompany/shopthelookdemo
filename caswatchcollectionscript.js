@@ -406,7 +406,8 @@
                 var swatchcolorelements = document.querySelectorAll('.caf_swatch_div');
                 for (s = 0; s < swatchcolorelements.length; s++) {
                   var _colorElement = swatchcolorelements[s];
-                  _colorElement.style.width = appvariables.Swatch_Size + 'px!important';
+                  _colorElement.style.width = appvariables.Swatch_Size + 'px';
+                  _colorElement.style.setProperty("width", appvariables.Swatch_Size, "important");
                   _colorElement.style.height = appvariables.Swatch_Size + 'px';
                   _colorElement.style.lineHeight = appvariables.Swatch_Size + 'px';
                   _colorElement.style.marginRight = '7px';
@@ -529,7 +530,8 @@
             }, function(error) {
               console.info('error', error);
             }, 25000);
-            $('.caf_swatch_childdiv').click(function (e) {
+            
+            $(document).on("click", '.caf_swatch_childdiv', function(e) {
               var swatchdiv = e.currentTarget;
               console.log(swatchdiv);
               var parentElement = swatchdiv.parentElement;
