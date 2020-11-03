@@ -273,8 +273,8 @@
           if(productstring == 'collections')
           {
 
-
             var _productsGridSelectors = document.querySelectorAll('.grid-product__image-wrapper');
+            //var _productsGridSelectors = document.querySelectorAll('.grid__item.grid__item--collection-template');
             //_productsGridSelectors.style.overflow = 'hidden';
             var _collectionpageataghrefslist_ = [];
             var _collectionspageatags = [];
@@ -373,7 +373,7 @@
                   _collectionswatch_div = '<div caf-index="' +  _productoptions[o].position + '" style="text-align: left; display: inline-block; cursor: pointer;" caf-swatchtype="color" caf-optionname="' +  _productoptions[o].name + '" class="caf_swatch_div caf-slider-contain">' + 
                     _colleciton_swatch_child_div +'</div>';
                   _variantoptionschilddiv = _variantoptionschilddiv + _collectionswatch_div;*/
-                      var _colleciton_swatch_child_div = '<div caf-index="' +  _productoptions[o].position + '" caf-swatchtype="color" caf-optionname="' +  _productoptions[o].name + '" data-tippy-content="' +  _product_value + '" data-tlite="s" title="' + _product_value + '" class="caf_swatch_childdiv caf-slider caf_swatch_div caf-slider-contain" caf-swatch-handle="' + _productelement.handle + '" caf-swatch-productid="' + _productelement.id + '" style="pointer: cursor; background-clip: content-box; padding: 2px; position:realtive; margin:2px; width: 50px; height: 50px; line-height: 50px; background-position: center; background-repeat: no-repeat; display: inline-block; border: 1px solid #F4F4F4; background-size: contain; border-radius: 1%; object-fit: contain; background-image:url(' +_variantimageSrc + ')" caf-swatchvalue="' + _product_value + '"></div>';
+                      var _colleciton_swatch_child_div = '<div swatchy-data-variantimage="' + _variantimageSrc + '" caf-index="' +  _productoptions[o].position + '" caf-swatchtype="color" caf-optionname="' +  _productoptions[o].name + '" data-tippy-content="' +  _product_value + '" data-tlite="s" title="' + _product_value + '" class="caf_swatch_childdiv caf-slider caf_swatch_div caf-slider-contain" caf-swatch-handle="' + _productelement.handle + '" caf-swatch-productid="' + _productelement.id + '" style="pointer: cursor; background-clip: content-box; padding: 2px; position:realtive; margin:2px; width: 50px; height: 50px; line-height: 50px; background-position: center; background-repeat: no-repeat; display: inline-block; border: 1px solid #F4F4F4; background-size: contain; border-radius: 1%; object-fit: contain; background-image:url(' +_variantimageSrc + ')" caf-swatchvalue="' + _product_value + '"></div>';
 
                       //_collectionswatch_div = '<div  style="text-align: left; display: inline-block; cursor: pointer;"   class="">' + 
                       // _colleciton_swatch_child_div +'</div>';
@@ -536,7 +536,7 @@
               console.log(swatchdiv);
               var parentElement = swatchdiv.parentElement;
               var allswatches = parentElement.children;
-              //var allswatches = document.querySelectorAll('.swatchy_colordiv');
+              //var allswatches = document.querySelectorAll('.caf_swatch_childdiv');
               for (var a = 0; a < allswatches.length; a++) {
                 allswatches[a].style.border = 'none';
                 allswatches[a].style.boxShadow = 'none';
@@ -552,14 +552,15 @@
               swatchdiv.style.boxShadow = '0px 0px 0px ' + appvariables.Swatch_HighlightThickness + 'px #' + appvariables.Swatch_HighlightColor;
               var producturl = swatchdiv.getAttribute('swatchy-data-href');
               var imagesrc = swatchdiv.getAttribute('swatchy-data-variantimage');
-             // var producthandleList = producturl.split('/');
+              //var producthandleList = producturl.split('/');
               //var producthandle = producthandleList[2];
               swatchdiv.style.border = '1px solid #eaeaea';
               var allatags = document.querySelectorAll('a');
               var variantid = swatchdiv.getAttribute('swatchy-data-variantid');
               var productimagediv = '';
-              var swatchParent = swatchdiv.parentElement;
-              //console.log(swatchParent);
+              var handle_ = swatchdiv.getAttribute('caf-swatch-handle');
+              var _swatchParentDiv = document.getElementById('caf_swatch_' + handle_);
+              var swatchParent = _swatchParentDiv;
 
               if (DomainName == 'refinedwears.com') {
 
