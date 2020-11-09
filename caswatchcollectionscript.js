@@ -36,7 +36,7 @@
     // Do this and do that, using $.
 
     var url = window.location.href;
-
+console.log(url);
     var nowtime = new Date();
     console.log(nowtime);
     var domainname = window.location.hostname;
