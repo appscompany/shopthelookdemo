@@ -38,7 +38,7 @@
     var url = window.location.href;
 
     var nowtime = new Date();
-
+    console.log(nowtime);
     var domainname = window.location.hostname;
     var url = window.location.href;
     var originalurl = window.location.href.split('?')[0];
