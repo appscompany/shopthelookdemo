@@ -272,7 +272,7 @@ console.log(url);
           if(productstring == 'collections')
           {
 
-            var _productsGridSelectors = document.querySelectorAll('.grid-product__image-wrapper');
+            var _productsGridSelectors = document.querySelectorAll('.collection-products');
             //var _productsGridSelectors = document.querySelectorAll('.grid__item.grid__item--collection-template');
             //_productsGridSelectors.style.overflow = 'hidden';
             var _collectionpageataghrefslist_ = [];
