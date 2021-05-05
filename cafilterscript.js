@@ -22,6 +22,7 @@ function stopWorker() {
   w.terminate();
   w = undefined;
 }
+  startWorker();
 } else {
   // Sorry! No Web Worker support..
 }
